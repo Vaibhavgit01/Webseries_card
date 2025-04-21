@@ -7,7 +7,7 @@ const Serieslist = ({ CurElem }) => {
         
          
             
-        <div className="bg-gray-800 rounded-2xl shadow-lg max-w-md w-full p-3 space-y-4"
+        <div className="bg-gray-800 rounded-2xl shadow-lg max-w-md w-full p-3.5 space-y-4 hover:scale-106"
             key={id}>
             <div className="w-full">
                 <img
