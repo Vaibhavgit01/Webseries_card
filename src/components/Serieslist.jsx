@@ -18,7 +18,7 @@ const Serieslist = ({ CurElem }) => {
             </div>
             <div className="space-y-2">
                 <h2 className="text-xl font-semibold text-white">Name: {name}</h2>
-                <h3 className="text-lg text-yellow-400">Rating: {rating}</h3>
+                <h3 className="text-lg text-yellow-400"> Rating: <span className={rating >= 8.5 ? "bg-[#e12b6a] text-[#fff] rounded-[40px] px-4.5 py-1.5 ml-[1.2rem] text-xl" :"bg-cyan-100 text-blue-600 rounded-[40px] px-4.5 py-1.5 ml-[1.2rem] text-xl"}>{rating} </span></h3>
                 <p className="text-justify text-gray-300">
                     <strong>Summary:</strong> {description}
                 </p>
