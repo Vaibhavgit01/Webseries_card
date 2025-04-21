@@ -1,7 +1,7 @@
 # React + Vite
 
 Web devloper (Vaibhav Kumar) <br>
-Making Multiple Webseies Card using API 
+Making Multiple Webseies Card using React and tallwind css 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
