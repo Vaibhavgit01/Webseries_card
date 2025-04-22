@@ -8,7 +8,7 @@ const Home = () => {
         <div style={{ backgroundColor: "#141414" }} className='flex justify-center items-center text-[35px] text-white pt-10'>
         <h1 className='bg-blue-700 p-1 rounded-xl'>List of Best K-Drama Webseries </h1>    
         </div>
-        <div className="py-5 p-3 grid grid-cols-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" style={{ backgroundColor: "#141414" }}>
+        <div className="py-5 p-3 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4" style={{ backgroundColor: "#141414" }}>
         <Infocard/>
        
         </div>
